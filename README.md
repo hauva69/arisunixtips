@@ -8,3 +8,5 @@ and silly to copy the habit. I'm kind of incompatible with notebooks.
 
 Much later it occurred to me, that I could replace the notebook with a
 github project.
+
+(Unix Tips and Tricks)[https://github.com/hauva69/arisunixtips/blob/master/tipsandtricks.md]
