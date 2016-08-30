@@ -1,5 +1,4 @@
-# arisunixtips
-Practical Unix/Linux Tips and Tricks 
+# Practical Unix/Linux Tips and Tricks 
 
 A former co-worker of mine used to, and probably still has that
 notebook of hers, where she wrote all kind of notes so that she could
