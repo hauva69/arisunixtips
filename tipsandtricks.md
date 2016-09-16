@@ -26,6 +26,14 @@ git difftool -y -x "colordiff -y -W $COLUMNS" 0338108a7368dfc37ca9ad42a3d8260b08
 git grep 'search-term' $(git ls-remote . 'refs/remotes/*')
 ```
 
+## Git log even if directory or file was removed
+
+Prepend the path with double hyphen.
+
+```bash
+git log -- directory_or_file_name
+```
+
 ## DNS query from stdin
 
 This works on Red Hat, for other operating systems different kinds of
