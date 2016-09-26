@@ -113,3 +113,9 @@ Show dot files in Finder
 ```
 cmd + shift + .
 ```
+
+## Log from command line or script to the syslog
+
+```bash
+echo foo | /usr/bin/logger -t TAG_NAME_FOR_FOO
+```
