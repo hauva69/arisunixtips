@@ -119,3 +119,19 @@ cmd + shift + .
 ```bash
 echo foo | /usr/bin/logger -t TAG_NAME_FOR_FOO
 ```
+
+## Emacs
+
+### Incrementally change font size.
+
+Bigger:
+
+```
+C-x C-+
+```
+
+Smaller:
+
+```
+C-x C--
+```
