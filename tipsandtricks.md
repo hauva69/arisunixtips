@@ -34,6 +34,16 @@ Prepend the path with double hyphen.
 git log -- directory_or_file_name
 ```
 
+## Processes
+
+### When did a process start?
+
+```bash
+ps -p 1955 -o args,lstart
+COMMAND                                      STARTED
+/usr/lib/jvm/jdk1.6.0_45/bi Thu Dec  8 12:59:25 2016
+```
+
 ## DNS query from stdin
 
 This works on Red Hat, for other operating systems different kinds of
