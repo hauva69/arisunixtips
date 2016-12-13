@@ -135,3 +135,15 @@ Smaller:
 ```
 C-x C--
 ```
+
+### Golang autocomplete and autoformat
+
+```elisp
+(require 'auto-complete)
+(global-auto-complete-mode t)
+(add-hook 'before-save-hook 'gofmt-before-save)
+(add-to-list 'load-path "~/.emacs.d/vendor/gocode")
+(require 'go-autocomplete)
+(require 'auto-complete-config)
+(add-hook 'before-save-hook 'gofmt-before-save)
+```
