@@ -34,6 +34,10 @@ Prepend the path with double hyphen.
 git log -- directory_or_file_name
 ```
 
+## All Languages Known to Github
+
+[List of all languages known to Github](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+
 ## Processes
 
 ### When did a process start?
