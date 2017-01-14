@@ -99,6 +99,18 @@ nvm alias default 0.12.7
   </LocationMatch>
 ```
 
+### Set Logging Level by Module
+
+```
+LogLevel info mod_rewrite.c:trace3
+``
+
+### Rewrite to an URL with a Hashtag
+
+```
+RewriteRule "^/japan2007" "/#japan2007" [R=301,NE,L]
+```
+
 ## Encryption
 
 ### Checking an SSL certificate
