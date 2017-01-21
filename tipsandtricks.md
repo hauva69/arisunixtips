@@ -89,6 +89,14 @@ to be able easily to change from a Node version to another and back.
 nvm alias default 0.12.7
 ```
 
+### npm search Crashes Due to Insuffiecient Memory
+
+Try:
+
+```bash
+node --max-old-space-size=4000 `which npm` search angular
+```
+
 ## Apache
 
 ### Location matches everything but the regular expression
