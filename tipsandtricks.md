@@ -1,5 +1,21 @@
 # Unix Tips and Tricks
 
+## make: Check That a Variable Is Defined
+
+Check that a variable is defined. Note that *ifndef* and *endif* are not
+intended.
+
+```make
+check-env:
+ifndef HOST
+	$(error HOST is undefined)
+endif
+```
+
+## Git Mardown Supported Languages
+
+* [Github Markdown Supported Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+
 ## Git diff side by side on terminal
 
 ### Regular diff
