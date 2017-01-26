@@ -127,7 +127,7 @@ node --max-old-space-size=4000 `which npm` search angular
 
 ```
 LogLevel info mod_rewrite.c:trace3
-``
+```
 
 ### Rewrite to an URL with a Hashtag
 
