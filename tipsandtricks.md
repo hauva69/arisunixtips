@@ -158,11 +158,19 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQ
 
 ## OS X
 
-Show dot files in Finder
+### Show dot files in Finder
 
 ```
 cmd + shift + .
 ```
+
+###
+
+Take a screenshot of a window
+
+```
+
+```cmd + shift + 4, then space, then click
 
 ## Log from command line or script to the syslog
 
