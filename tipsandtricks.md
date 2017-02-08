@@ -164,13 +164,21 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQ
 cmd + shift + .
 ```
 
-###
-
-Take a screenshot of a window
+### Take a screenshot of a window
 
 ```
+cmd + shift + 4, then space, then click
+```
 
-```cmd + shift + 4, then space, then click
+### Make Idea et al Work on Case Sensitive File System
+
+Mostly I like OS X, I do prefer using Linux on Desktop, but OS X is quite ok. There are a few major annoyances like
+case insensitive file system. This annoyance is easy to get around: split your hard drive in two partitions and make the
+non-system disk case sensitive. However, after that IntelliJ software starts to complain. Add to **idea.properties** line
+
+```
+idea.case.sensitive.fs=true
+```
 
 ## Log from command line or script to the syslog
 
