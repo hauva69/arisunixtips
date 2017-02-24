@@ -54,6 +54,12 @@ git log -- directory_or_file_name
 
 [List of all languages known to Github](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
+## Combine Several Lines into One Line
+
+```bash
+printf '<a href="http://www.example.com/">www</a>\n<a href="http://foo.example.com/">foo</a>\n' | awk -F '"' '{ print $2 }' | paste -s -d '|' -
+```
+
 ## Processes
 
 ### When did a process start?
