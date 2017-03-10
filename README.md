@@ -8,8 +8,8 @@ and silly to copy the habit. I'm kind of incompatible with notebooks.
 Much later it occurred to me, that I could replace the notebook with a
 github project.
 
-(Unix Tips and Tricks)[https://github.com/hauva69/arisunixtips/blob/master/tipsandtricks.md]
+[Unix Tips and Tricks](https://github.com/hauva69/arisunixtips/blob/master/tipsandtricks.md)
 
 ## Links
 
-* (Google Shell Style Guide)[https://google.github.io/styleguide/shell.xml]
+* [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml)
