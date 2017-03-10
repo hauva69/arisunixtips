@@ -12,6 +12,19 @@ ifndef HOST
 endif
 ```
 
+## Render Markdown Locally
+
+There are several options, one is Grip.
+
+* [grip](https://github.com/joeyespo/grip)
+
+```bash
+# On Ubuntu
+apt-get install grip
+# On OS X
+brew install grip
+```
+
 ## Git Mardown Supported Languages
 
 * [Github Markdown Supported Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
