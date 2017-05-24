@@ -240,3 +240,13 @@ C-x C--
 (require 'auto-complete-config)
 (add-hook 'before-save-hook 'gofmt-before-save)
 ```
+
+## FTP
+
+### Recursively remove directories and files
+
+Use lftp
+
+```
+glob -a rm -r *
+```
