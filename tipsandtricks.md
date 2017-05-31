@@ -166,6 +166,8 @@ docker run -it --rm --privileged --pid=host debian nsenter -t 1 -m -u -n -i date
 
 ### Checking an SSL certificate
 
+[OpenSSL commands to check and verify your SSL certificate, key and CSR](https://support.asperasoft.com/hc/en-us/articles/216128468-OpenSSL-commands-to-check-and-verify-your-SSL-certificate-key-and-CSR)
+
 ```bash
 echo | openssl s_client -connect google.com:443 2>/dev/null | openssl x509 -noout -dates
 ```
