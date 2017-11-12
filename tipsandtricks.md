@@ -249,6 +249,20 @@ C-x C--
 
 Use lftp
 
-```
+```bash
 glob -a rm -r *
+```
+
+## Finding your disks
+
+```bash
+inxi -d
+```
+
+## Burning DVD from command line
+
+Replace sr0 with your own device if your's is not /dev/sr0.
+
+```bash
+growisofs -dvd-compat -Z /dev/sr0=myiso.iso
 ```
