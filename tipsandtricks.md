@@ -2,7 +2,7 @@
 
 ## make: Check That a Variable Is Defined
 
-Check that a variable is defined. Note that *ifndef* and *endif* are not
+Check that a variable is defined. Note that _ifndef_ and _endif_ are not
 intended.
 
 ```make
@@ -16,7 +16,7 @@ endif
 
 There are several options, one is Grip.
 
-* [grip](https://github.com/joeyespo/grip)
+- [grip](https://github.com/joeyespo/grip)
 
 ```bash
 # On Ubuntu
@@ -27,7 +27,7 @@ brew install grip
 
 ## Git Mardown Supported Languages
 
-* [Github Markdown Supported Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+- [Github Markdown Supported Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 ## Git diff side by side on terminal
 
@@ -62,10 +62,6 @@ Prepend the path with double hyphen.
 ```bash
 git log -- directory_or_file_name
 ```
-
-## All Languages Known to Github
-
-[List of all languages known to Github](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 ## Combine Several Lines into One Line
 
