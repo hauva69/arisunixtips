@@ -8,6 +8,17 @@ My awk expertize is near non-existent, but I find it to be an extremely useful t
 - [Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations](https://catonmat.net/awk-one-liners-explained-part-one)
 - [Awk One-Liners Explained, Part II: Text Conversion and Substitution](https://catonmat.net/awk-one-liners-explained-part-two)
 
+## bash
+
+### Google Shell Style Guide
+
+Google has a very useful [Shell Style Guide](https://google.github.io/styleguide/shell.xml).
+
+### shellcheck
+
+[shellcheck](https://www.shellcheck.net/) is a highly useful tool for linting shell scripts. Most shell shell scripts
+I've seen fail gloriously when linted. And it is a good thing, because then one can fix them.
+
 ## make: Check That a Variable Is Defined
 
 Check that a variable is defined. Note that _ifndef_ and _endif_ are not
