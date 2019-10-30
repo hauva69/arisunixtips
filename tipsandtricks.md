@@ -7,6 +7,7 @@ My awk expertize is near non-existent, but I find it to be an extremely useful t
 - [10 Awk Tips, Tricks and Pitfalls](https://catonmat.net/ten-awk-tips-tricks-and-pitfalls)
 - [Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations](https://catonmat.net/awk-one-liners-explained-part-one)
 - [Awk One-Liners Explained, Part II: Text Conversion and Substitution](https://catonmat.net/awk-one-liners-explained-part-two)
+- [Handy awk commands](http://www.dba-oracle.com/t_awk_commands.htm)
 
 ## bash
 
