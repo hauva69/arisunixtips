@@ -2,7 +2,7 @@
 
 ## Awk
 
-My awk expertize is near non-existent, but I find it to be an extremely useful tool. Some tips collections:
+My awk expertise is near non-existent, but I find it to be an extremely useful tool. Some tips collections:
 
 - [10 Awk Tips, Tricks and Pitfalls](https://catonmat.net/ten-awk-tips-tricks-and-pitfalls)
 - [Awk One-Liners Explained, Part I: File Spacing, Numbering and Calculations](https://catonmat.net/awk-one-liners-explained-part-one)
@@ -45,7 +45,7 @@ apt-get install grip
 brew install grip
 ```
 
-## Git Mardown Supported Languages
+## Git Markdown Supported Languages
 
 - [Github Markdown Supported Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
@@ -140,7 +140,7 @@ to be able easily to change from a Node version to another and back.
 nvm alias default 0.12.7
 ```
 
-### npm search Crashes Due to Insuffiecient Memory
+### npm search Crashes Due to Insufficient Memory
 
 Try:
 
@@ -217,7 +217,7 @@ cmd + shift + 4, then space, then click
 
 ### Make Idea et al Work on Case Sensitive File System
 
-Whie I kind of like OS X, I do prefer using Linux on Desktop. There are a few major annoyances like
+While I kind of like OS X, I do prefer using Linux on Desktop. There are a few major annoyances like
 case insensitive file system. This annoyance is easy to get around: split your hard drive in two partitions and make the
 non-system disk case sensitive. However, after that IntelliJ software starts to complain. Add to **idea.properties** line
 
