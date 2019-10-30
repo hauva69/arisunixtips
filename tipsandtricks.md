@@ -197,7 +197,7 @@ cmd + shift + 4, then space, then click
 
 ### Make Idea et al Work on Case Sensitive File System
 
-Mostly I like OS X, I do prefer using Linux on Desktop, but OS X is quite ok. There are a few major annoyances like
+Whie I kind of like OS X, I do prefer using Linux on Desktop. There are a few major annoyances like
 case insensitive file system. This annoyance is easy to get around: split your hard drive in two partitions and make the
 non-system disk case sensitive. However, after that IntelliJ software starts to complain. Add to **idea.properties** line
 
