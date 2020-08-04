@@ -47,6 +47,10 @@ brew install grip
 
 ## Git
 
+### Configuring Git to handle line endings
+
+[Configuring Git to handle line endings](https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings)
+
 ### Git Markdown Supported Languages
 
 - [Github Markdown Supported Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
