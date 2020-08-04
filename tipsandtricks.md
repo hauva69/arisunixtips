@@ -45,37 +45,39 @@ apt-get install grip
 brew install grip
 ```
 
-## Git Markdown Supported Languages
+## Git
+
+### Git Markdown Supported Languages
 
 - [Github Markdown Supported Languages](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
-## Git diff side by side on terminal
+### Git diff side by side on terminal
 
-### Regular diff
+#### Regular diff
 
 ```bash
 git difftool -y -x "diff -y -W $COLUMNS" 0338108a7368dfc37ca9ad42a3d8260b0813e3c7...master .
 ```
 
-### sdiff
+#### sdiff
 
 ```bash
 git difftool -y -x "sdiff -w $COLUMNS" 0338108a7368dfc37ca9ad42a3d8260b0813e3c7...master .
 ```
 
-### colordiff
+#### colordiff
 
 ```bash
 git difftool -y -x "colordiff -y -W $COLUMNS" 0338108a7368dfc37ca9ad42a3d8260b0813e3c7...master . | less -R
 ```
 
-## git search from all branches
+### git search from all branches
 
 ```bash
 git grep 'search-term' $(git ls-remote . 'refs/remotes/*')
 ```
 
-## Git log even if directory or file was removed
+### Git log even if directory or file was removed
 
 Prepend the path with double hyphen.
 
