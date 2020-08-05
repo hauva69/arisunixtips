@@ -275,6 +275,27 @@ C-x C--
 (add-hook 'before-save-hook 'gofmt-before-save)
 ```
 
+## VS Code
+
+### Too many files for the wathing to work
+
+In a Python product there were so many files that VS Code complained for them. Added the *bin/*, *lib/*, *lib64/* and *share/* to *files.watcherExclude* resolved the problem.
+
+```json
+{
+    "python.pythonPath": "bin/python",
+    "editor.codeActionsOnSave": {},
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/bin/**": true,
+        "**/lib*/**": true,
+        "**/share/**": true
+      }
+}
+```
+
 ## FTP
 
 ### Recursively remove directories and files
