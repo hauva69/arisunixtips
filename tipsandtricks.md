@@ -279,7 +279,7 @@ C-x C--
 
 ### Too many files for the wathing to work
 
-In a Python product there were so many files that VS Code complained for them. Added the *bin/*, *lib/*, *lib64/* and *share/* to *files.watcherExclude* resolved the problem.
+In a Python project there were so many files that VS Code complained for them. Added the *bin/*, *lib/*, *lib64/* and *share/* to *files.watcherExclude* resolved the problem.
 
 ```json
 {
