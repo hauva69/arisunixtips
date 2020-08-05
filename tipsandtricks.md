@@ -237,6 +237,16 @@ idea.case.sensitive.fs=true
 echo foo | /usr/bin/logger -t TAG_NAME_FOR_FOO
 ```
 
+## Setting editor defaults
+
+```bash
+EDITOR='emacsclient -a ""'
+VISUAL="$EDITOR"
+FCEDIT='vim'
+
+export EDITOR VISUAL FCEDIT
+```
+
 ## Emacs
 
 ### Incrementally change font size.
