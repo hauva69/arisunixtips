@@ -277,7 +277,7 @@ C-x C--
 
 ## VS Code
 
-### Too many files for the wathing to work
+### Too many files for the watching to work
 
 In a Python project there were so many files that VS Code complained for them. Added the *bin/*, *lib/*, *lib64/* and *share/* to *files.watcherExclude* resolved the problem.
 
