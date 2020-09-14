@@ -265,6 +265,14 @@ C-x C--
 (add-hook 'before-save-hook 'gofmt-before-save)
 ```
 
+## Vim
+
+### Showing the carriage returns in the end of the lines
+
+```bash
+vim -b foo.md
+```
+
 ## FTP
 
 ### Recursively remove directories and files
