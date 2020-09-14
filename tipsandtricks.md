@@ -237,6 +237,16 @@ idea.case.sensitive.fs=true
 echo foo | /usr/bin/logger -t TAG_NAME_FOR_FOO
 ```
 
+## Setting editor defaults
+
+```bash
+EDITOR='emacsclient -a ""'
+VISUAL="$EDITOR"
+FCEDIT='vim'
+
+export EDITOR VISUAL FCEDIT
+```
+
 ## Emacs
 
 ### Incrementally change font size.
@@ -271,6 +281,27 @@ C-x C--
 
 ```bash
 vim -b foo.md
+```
+
+## VS Code
+
+### Too many files for the watching to work
+
+In a Python project there were so many files that VS Code complained for them. Added the *bin/*, *lib/*, *lib64/* and *share/* to *files.watcherExclude* resolved the problem.
+
+```json
+{
+    "python.pythonPath": "bin/python",
+    "editor.codeActionsOnSave": {},
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/bin/**": true,
+        "**/lib*/**": true,
+        "**/share/**": true
+      }
+}
 ```
 
 ## FTP
