@@ -95,6 +95,14 @@ git log -- directory_or_file_name
 printf '<a href="http://www.example.com/">www</a>\n<a href="http://foo.example.com/">foo</a>\n' | awk -F '"' '{ print $2 }' | paste -s -d '|' -
 ```
 
+## Calculate the sum of a column in a file
+
+The example takes the second column in a file _bc.in_ and sums the values.
+
+```bash
+cut -f 2 -d : bc.in | paste -sd+ - | bc
+```
+
 ## Processes
 
 ### When did a process start?
