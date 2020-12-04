@@ -11,6 +11,13 @@ Some basics of command line usage on UNIX like systems.
 
 ## File Systems
 
+### TODO
+
+- df (-k, -h on GNU)
+- du (-k, -h on GNU)
+- sort (-u, -h on GNU)
+- find (. on legacy, -print0 and xargs -0 on GNU)
+
 ## Packing and Unpacking
 
 ## Process Management
