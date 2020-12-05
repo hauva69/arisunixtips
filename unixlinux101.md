@@ -2,6 +2,19 @@
 
 Some basics of command line usage on UNIX like systems.
 
+## The Quintessial old friends foo, bar, baz and qux
+
+
+
+## Shells
+
+```sh
+# delete file with starts with a hyphen
+rm -- -foo
+```
+
+### TODO
+
 ## Danger Zone: Differences Between Operating Systems Can Be Fatal
 
 ### TODO 
@@ -43,3 +56,16 @@ Some basics of command line usage on UNIX like systems.
 - sed
 - awk
 - perl
+
+## XML
+
+## xmllint
+
+A linter for XML. It can:
+
+- Most obviously it can check the well-formedness of files.
+- Validate files against a DTD with option _-valid_.
+
+```bash
+xmllint --noout foo.xml
+```
