@@ -8,6 +8,10 @@ _foo_, _bar_, _baz_ and _qux_ are used as example strings: file names, input dat
 
 ## Shells
 
+_bash_ is the default shell on GNU/Linux systems. On legacy UNIX systems _ksh_
+is the most common shell. Many people use _zsh_, which is also the default shell of
+recent _OS X_ versions.
+
 ```sh
 # delete file with starts with a hyphen
 rm -- -foo
