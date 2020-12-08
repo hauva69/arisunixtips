@@ -13,6 +13,8 @@ _foo_, _bar_, _baz_ and _qux_ are used as example strings: file names, input dat
 rm -- -foo
 ```
 
+### A Best Practise: use streams, not files
+
 ### TODO
 
 ## Danger Zone: Differences Between Operating Systems Can Be Fatal
