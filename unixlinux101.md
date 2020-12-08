@@ -4,7 +4,7 @@ Some basics of command line usage on UNIX like systems.
 
 ## The Quintessial old friends foo, bar, baz and qux
 
-
+_foo_, _bar_, _baz_ and _qux_ are used as example strings: file names, input data etc. A bit like _hello, world_ in programming.
 
 ## Shells
 
