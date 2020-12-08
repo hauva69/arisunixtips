@@ -29,6 +29,35 @@ bash and so do I: it's same everywhere and can be installed on any reasonable UN
 
 ### A Best Practise: use streams, not files
 
+One of fundamental features of UNIX command line (CLI) applications is that 
+they are consumers and producers. Complicated, and powerful, pipelines can 
+be constructed if every piece of software uses standard input, standard output
+and standard error instead of writing to files. It advisable to use redirection 
+in order to put any data into files.
+
+#### Standard Input
+
+```bash
+command < foo.txt
+```
+
+#### Useless Use of cat
+
+_cat_ is short for concatenating i.e. the command concatenates server files to standard output. It's rare that the cat command is needed if the command has only 
+one parameter. Use '<' instead.
+
+- (Useless Use of Cat Award)[http://porkmail.org/era/unix/award.html]
+
+#### Pipes
+
+#### Redirection
+
+##### Standard Output
+
+##### Standard Input
+
+##### tee
+
 ## File Systems
 
 ### TODO
