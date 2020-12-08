@@ -24,9 +24,10 @@ recent _OS X_ versions.
 rm -- -foo
 ```
 
-### A Best Practise: use streams, not files
+_/bin/sh_ has been traditionally used for scripting, but for example the [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml) recommends using 
+bash and so do I: it's same everywhere and can be installed on any reasonable UNIX like operating system.
 
-### TODO
+### A Best Practise: use streams, not files
 
 ## File Systems
 
@@ -75,3 +76,4 @@ A linter for XML. It can:
 ```bash
 xmllint --noout foo.xml
 ```
+## Links
