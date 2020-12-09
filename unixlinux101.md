@@ -33,6 +33,13 @@ Basic usage is simple, but there are lot of things one just has to know like:
 rm -- -foo
 ```
 
+However, with modern computing power it is seldom necessary to be as efficient possible, but please do think before doing anything destructive. A classic blunder:
+
+```bash
+# trying to remove emacs backup files, but include an extra spaces rm *~ was intended, but...
+rm * ~
+```
+
 ### A Best Practise: use streams, not files
 
 One of fundamental features of UNIX command line (CLI) applications is that 
