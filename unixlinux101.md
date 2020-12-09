@@ -56,7 +56,9 @@ in order to put any data into files.
 
 Some examples follow.
 
-#### The Good...
+#### Pipes
+
+##### The Good...
 
 I once had to change a string in a web site with hundreds, if not thousands, of static HTML files. It was something like this:
 
@@ -64,7 +66,9 @@ I once had to change a string in a web site with hundreds, if not thousands, of 
 ari@víðarr:~/workspace/arisunixtips$ find example/ -name '*.html'  | xargs perl -i -pe 's|http://arska.org|http://aijaruokaa.arska.org|g'
 ```
 
-#### ...The Bad and Ugly
+##### ...The Bad and Ugly
+
+This is useful, but is it readable?
 
 ```bash
 sudo tcpdump -A -s 10240 'tcp port 29983 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)' | egrep --line-buffered "^........(GET |HTTP\/|POST |HEAD )|^[A-Za-z0-9-]+: " | sed -r 's/^........(GET |HTTP\/|POST |HEAD )/\n\1/g'
@@ -83,8 +87,6 @@ _cat_ is short for concatenating i.e. the command concatenates server files to s
 one parameter. Use '<' instead.
 
 - (Useless Use of Cat Award)[http://porkmail.org/era/unix/award.html]
-
-#### Pipes
 
 #### Redirection
 
