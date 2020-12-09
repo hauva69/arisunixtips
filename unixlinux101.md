@@ -21,13 +21,17 @@ _bash_ is the default shell on GNU/Linux systems. On legacy UNIX systems _ksh_
 is the most common shell. Many people use _zsh_, which is also the default shell of
 recent _OS X_ versions.
 
+_/bin/sh_ has been traditionally used for scripting, but for example the [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml) recommends using 
+bash and so do I: it's same everywhere and can be installed on any reasonable UNIX like operating system.
+
+### Nasty Details
+
+Basic usage is simple, but there are lot of things one just has to know like:
+
 ```sh
 # delete file with starts with a hyphen
 rm -- -foo
 ```
-
-_/bin/sh_ has been traditionally used for scripting, but for example the [Google Shell Style Guide](https://google.github.io/styleguide/shell.xml) recommends using 
-bash and so do I: it's same everywhere and can be installed on any reasonable UNIX like operating system.
 
 ### A Best Practise: use streams, not files
 
