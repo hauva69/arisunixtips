@@ -86,6 +86,16 @@ one parameter. Use '<' instead.
 - Protect your data by quoting strings.
 - The difference between \, " and ' .
 
+## Commands
+
+### ls
+
+List files by modification time.
+
+```bash
+ls -ot *.csv | head
+```
+
 ## Filtering Output
 
 - grep (and egrep and fgrep)
