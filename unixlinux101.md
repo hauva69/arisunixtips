@@ -90,9 +90,14 @@ one parameter. Use '<' instead.
 
 #### Redirection
 
-##### Standard Output
+```bash
+# redirect to a file
+echo foo > bar.txt
+# append to a file
+echo baz >> bar.txt
+```
 
-##### tee
+##### An Useful Command: tee
 
 ## File Systems
 
