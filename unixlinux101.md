@@ -95,9 +95,33 @@ one parameter. Use '<' instead.
 echo foo > bar.txt
 # append to a file
 echo baz >> bar.txt
+# standard error to a file
+command 2> err.out
+```
+
+It's not too simple, though:
+
+```
+  Note that the order of redirections is significant.  For example, the command
+
+              ls > dirlist 2>&1
+
+  directs both standard output and standard error to the file dirlist, while the command
+
+              ls 2>&1 > dirlist
+
+  directs  only the standard output to file dirlist, because the standard error was duplicated from the standard
+  output before the standard output was redirected to dirlist.
 ```
 
 ##### An Useful Command: tee
+
+```bash
+# write output both to the standard output and a file given as a parameter.
+command | tee foo.out
+# append
+command | tee -a foo.out
+```
 
 ## File Systems
 
