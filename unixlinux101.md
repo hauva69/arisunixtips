@@ -38,6 +38,12 @@ However, with modern computing power it is seldom necessary to be as efficient p
 ```bash
 # trying to remove emacs backup files, but include an extra spaces rm *~ was intended, but...
 rm * ~
+# solution: use it with ls first:
+ari@víðarr:~/workspace/arisunixtips$ ls * ~
+README.md  docker.md  sql.md  tipsandtricks.md  unixlinux101.md
+
+/home/ari:
+go  software  workspace
 ```
 
 ### A Best Practise: use streams, not files
