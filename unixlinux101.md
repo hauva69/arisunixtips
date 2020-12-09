@@ -38,7 +38,9 @@ in order to put any data into files.
 #### Standard Input
 
 ```bash
+# command reads input from standard input
 command < foo.txt
+# the simplest way to create an empty file
 ```
 
 #### Useless Use of cat
