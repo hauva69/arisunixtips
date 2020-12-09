@@ -4,10 +4,12 @@ Some basics of command line usage on UNIX like systems.
 
 ## Danger Zone: Differences Between Operating Systems Can Be Fatal
 
-### TODO 
+There are two basic forms of UNIXes: BSD and System V. The most well known difference is `ps aux` vs `ps -ef`.
 
-- BSD vs. System V
-- Dangerous differences like killall
+### Dangerous differences like killall
+
+- On Linux `killall` kills processes by name.
+- On legacy UNIXes `killall` kills everything except the process itself and it's parents.
 
 ## The Quintessial old friends foo, bar, baz and qux
 
@@ -55,8 +57,6 @@ one parameter. Use '<' instead.
 #### Redirection
 
 ##### Standard Output
-
-##### Standard Input
 
 ##### tee
 
