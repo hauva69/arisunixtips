@@ -193,4 +193,17 @@ A linter for XML. It can:
 ```bash
 xmllint --noout foo.xml
 ```
-## Links
+
+## What Do I Want to Learn?
+
+- more awk
+- bash history expansion
+
+```bash
+hauva@víðarr:~/workspace/arisunixtips/example/splitting$ git add fibonacci_with_tab.in
+hauva@víðarr:~/workspace/arisunixtips/example/splitting$ git commit -m "!$ added" !$
+git commit -m "fibonacci_with_tab.in added" fibonacci_with_tab.in
+[unixlinux101 0e48c12] fibonacci_with_tab.in added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 example/splitting/fibonacci_with_tab.in
+```
