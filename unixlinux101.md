@@ -174,6 +174,7 @@ ls -ot *.csv | head
 ## Filtering Output
 
 - grep (and egrep and fgrep)
+- cut
 - sed (TODO)
 - awk
 - perl
