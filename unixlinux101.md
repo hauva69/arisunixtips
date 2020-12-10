@@ -30,7 +30,14 @@ Basic usage is simple, but there are lot of things one just has to know like:
 
 ```sh
 # delete file with starts with a hyphen
-rm -- -foo
+ari@víðarr:~/workspace/arisunixtips/example$ mkdir foo && touch foo/-bar && cd foo
+ari@víðarr:~/workspace/arisunixtips/example/foo$ pwd
+/home/ari/workspace/arisunixtips/example/foo
+ari@víðarr:~/workspace/arisunixtips/example/foo$ rm *
+rm: invalid option -- 'b'
+Try 'rm ./-bar' to remove the file '-bar'.
+Try 'rm --help' for more information.
+ari@víðarr:~/workspace/arisunixtips/example/foo$ rm -- -bar
 ```
 
 However, with modern computing power it is seldom necessary to be as efficient possible, but please do think before doing anything destructive. A classic blunder:
@@ -125,14 +132,17 @@ command | tee -a foo.out
 
 ## File Systems
 
-### TODO
-
 - df (-k, -h on GNU)
 - du (-k, -h on GNU)
 - sort (-u, -h on GNU)
 - find (. on legacy, -print0 and xargs -0 on GNU)
 
 ## Packing and Unpacking
+
+- `gzip` is the most common solution for packing files. gzip removes the original file!
+- Ungzip to stdout `gzip -dc foo.txt.gz`.
+- use `tar` for directories, compress with gzip: `tar zcf foo.tgz bar baz qux`
+- verbose considered harmful. Use `tar ztf foo.tgz` to check the result instead.
 
 ## Process Management
 
@@ -164,9 +174,11 @@ ls -ot *.csv | head
 ## Filtering Output
 
 - grep (and egrep and fgrep)
-- sed
+- sed (TODO)
 - awk
 - perl
+- tail -f *
+- tail -f | egrep ...
 
 ## XML
 
