@@ -202,6 +202,12 @@ docker run -it --rm --privileged --pid=host debian nsenter -t 1 -m -u -n -i date
 echo | openssl s_client -connect google.com:443 2>/dev/null | openssl x509 -noout -dates
 ```
 
+## tmux
+
+tmux is a window manager for terminals in which one can create panes and windows, and even more importantly detach and attach sessions.
+
+- [A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+
 ## Tar over SSH
 
 ```bash
