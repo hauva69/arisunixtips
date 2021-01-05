@@ -212,20 +212,20 @@ tmux is a window manager for terminals in which one can create panes and windows
 | ------- | ----------- |
 | tmux    | start tmux  |
 | tmux new -s \<name\> | start a session with a name |
-| tmux rename-session -t <number> <name> | rename a session | 
+| tmux rename-session -t \<number\> \<name\> | rename a session | 
 | C-b     | the command prefix |
 | C-b %   | split horizantally |
 | C-b "   | split vertically |
-| C-b <arrow key> | navigating panes |
+| C-b \<arrow key\> | navigating panes |
 | C-b c   | create window |
 | C-b p   | previous window |
 | C-b n   | next window |
-| C-b <number> | change to a window number <number> |
+| C-b \<number\> | change to a window number \<number\> |
 | C-b z   | maximize and minimize |
 | C-b ,   | rename the current window |
 | C-b d   | detach |
 | tmux ls | list sessions |
-| C-b -t <number\|name> | attach to session <number\|name> |
+| C-b -t \<number\|name\> | attach to session \<number\|name\> |
 | C-d     | exit pane or window |
 
 ## Tar over SSH
