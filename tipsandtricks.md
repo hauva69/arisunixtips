@@ -211,7 +211,7 @@ tmux is a window manager for terminals in which one can create panes and windows
 | Command | Description |
 | ------- | ----------- |
 | tmux    | start tmux  |
-| tmux new -s <name> | start a session with a name |
+| tmux new -s \<name\> | start a session with a name |
 | tmux rename-session -t <number> <name> | rename a session | 
 | C-b     | the command prefix |
 | C-b %   | split horizantally |
