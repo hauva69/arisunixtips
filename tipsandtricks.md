@@ -202,6 +202,32 @@ docker run -it --rm --privileged --pid=host debian nsenter -t 1 -m -u -n -i date
 echo | openssl s_client -connect google.com:443 2>/dev/null | openssl x509 -noout -dates
 ```
 
+## tmux
+
+tmux is a window manager for terminals in which one can create panes and windows, and even more importantly detach and attach sessions.
+
+- [A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+
+| Command | Description |
+| ------- | ----------- |
+| tmux    | start tmux  |
+| tmux new -s \<name\> | start a session with a name |
+| tmux rename-session -t \<number\> \<name\> | rename a session | 
+| C-b     | the command prefix |
+| C-b %   | split horizantally |
+| C-b "   | split vertically |
+| C-b \<arrow key\> | navigating panes |
+| C-b c   | create window |
+| C-b p   | previous window |
+| C-b n   | next window |
+| C-b \<number\> | change to a window number \<number\> |
+| C-b z   | maximize and minimize |
+| C-b ,   | rename the current window |
+| C-b d   | detach |
+| tmux ls | list sessions |
+| C-b -t \<number\|name\> | attach to session \<number\|name\> |
+| C-d     | exit pane or window |
+
 ## Tar over SSH
 
 ```bash
