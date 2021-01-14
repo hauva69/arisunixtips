@@ -204,7 +204,15 @@ echo | openssl s_client -connect google.com:443 2>/dev/null | openssl x509 -noou
 
 ## tmux
 
-tmux is a window manager for terminals in which one can create panes and windows, and even more importantly detach and attach sessions.
+tmux is a terminal multiplexer i.e. it enables number of terminals (or windows) in which one can create panes and windows, and even more importantly detach and attach sessions.
+
+### The Control-B Problem
+
+tmux uses _ctrl-b_ as the default keystroke for commands and it can be painful, especially to the Emacs users. It can be reconfigured,
+though, but the suggested _ctrl-`_ may be problematic MySQL/MariaDB users. Some food for thought:
+
+- [What's the least conflicting prefix/escape sequence for screen or tmux?](https://superuser.com/questions/74492/whats-the-least-conflicting-prefix-escape-sequence-for-screen-or-tmux)
+- [Benefits of using backtick (`) in MySQL queries?](https://dba.stackexchange.com/questions/23129/benefits-of-using-backtick-in-mysql-queries)
 
 - [A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 
