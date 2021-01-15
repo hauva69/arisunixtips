@@ -214,13 +214,20 @@ though, but the suggested _ctrl-`_ may be problematic MySQL/MariaDB users. Some 
 - [What's the least conflicting prefix/escape sequence for screen or tmux?](https://superuser.com/questions/74492/whats-the-least-conflicting-prefix-escape-sequence-for-screen-or-tmux)
 - [Benefits of using backtick (`) in MySQL queries?](https://dba.stackexchange.com/questions/23129/benefits-of-using-backtick-in-mysql-queries)
 
-- [A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+### Commands
+
+This table is based on [A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/). See the manual 
+page for more.
 
 | Command | Description |
 | ------- | ----------- |
 | tmux    | start tmux  |
 | tmux new -s \<name\> | start a session with a name |
-| tmux rename-session -t \<number\> \<name\> | rename a session | 
+| tmux rename-session -t \<number\> \<name\> | rename a session |
+| tmux ls | list sessions |
+| C-b d   | detach the session|
+| C-d     | exit pane or window, alternatively, just type _exit_ |
+| C-b -t \<number\|name\> | attach to session \<number\|name\> |
 | C-b     | the command prefix |
 | C-b %   | split horizantally |
 | C-b "   | split vertically |
@@ -231,10 +238,6 @@ though, but the suggested _ctrl-`_ may be problematic MySQL/MariaDB users. Some 
 | C-b \<number\> | change to a window number \<number\> |
 | C-b z   | maximize and minimize |
 | C-b ,   | rename the current window |
-| C-b d   | detach |
-| tmux ls | list sessions |
-| C-b -t \<number\|name\> | attach to session \<number\|name\> |
-| C-d     | exit pane or window |
 
 ## Tar over SSH
 
