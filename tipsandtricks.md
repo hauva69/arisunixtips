@@ -214,6 +214,10 @@ though, but the suggested _ctrl-`_ may be problematic MySQL/MariaDB users. Some 
 - [What's the least conflicting prefix/escape sequence for screen or tmux?](https://superuser.com/questions/74492/whats-the-least-conflicting-prefix-escape-sequence-for-screen-or-tmux)
 - [Benefits of using backtick (`) in MySQL queries?](https://dba.stackexchange.com/questions/23129/benefits-of-using-backtick-in-mysql-queries)
 
+### The Security Problem
+
+Do not leave windows or panes with with administrative rights (root, database clients etc.) running when detaching a session.
+
 ### Commands
 
 This table is based on [A Quick and Easy Guide to tmux](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/). See the manual 
