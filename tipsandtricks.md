@@ -47,6 +47,12 @@ brew install grip
 
 ## Git
 
+### Setting the Default Editor
+
+```bash
+git config --global core.editor vim
+```
+
 ### Configuring Git to handle line endings
 
 [Configuring Git to handle line endings](https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings)
