@@ -318,6 +318,16 @@ Smaller:
 C-x C--
 ```
 
+### Disable colour
+
+Dark terminal backgrounds often makes life miserable. One way of getting rid of
+it is disabling the global-font-lock-mode, permamently with _.emacs_ modification:
+
+```elisp
+;; no colours, paint it black
+(global-font-lock-mode 0)
+```
+
 ### Golang autocomplete and autoformat
 
 ```elisp
